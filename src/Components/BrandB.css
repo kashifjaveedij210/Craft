@@ -1,0 +1,98 @@
+.hed{
+    position:absolute;
+    top:600px;
+    left: 440px;
+    color: rgb(27,27,70);
+}
+.mainimg{
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    top: 650px;
+    right: 30px;
+
+}
+
+.div1 {
+    position: relative;
+    top: 190px;
+    left: 100px;
+    width: 200px;
+  color: grey;
+  text-align: justify;
+  word-spacing: 2px;
+
+}
+.p1{
+    position: absolute;
+    top: 180px;
+}
+.imgs{position: relative;
+    top: 70px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+ 
+}
+.div2 {
+    position: relative;
+    top: 110px;
+    left: 430px;
+    width: 200px;
+  color: grey;
+  text-align: justify;
+  word-spacing: 2px;
+
+}
+.p2{
+    position: absolute;
+    top: 180px;
+}
+.imgs2{position: relative;
+    top:40px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+ 
+}
+.div3 {
+    position: relative;
+    top: 360px;
+    left: 100px;
+    width: 200px;
+  color: grey;
+  text-align: justify;
+  word-spacing: 2px;
+
+}
+.p3{
+    position: absolute;
+    top: 180px;
+}
+.imgs3{position: relative;
+    top: 70px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+}
+.div4 {
+    position: relative;
+    top: 320px;
+    left: 430px;
+    width: 200px;
+  color: grey;
+  text-align: justify;
+  word-spacing: 2px;
+
+}
+.p4{
+    position: absolute;
+    top: 180px;
+}
+.imgs4{position: relative;
+    top: 30px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+ 
+}

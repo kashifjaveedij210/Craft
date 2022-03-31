@@ -1,0 +1,38 @@
+.navi{
+    padding-top: 20px;
+    background-color:purple;
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+    margin: 40px;
+    padding-right: 300px;
+}
+
+.anchor{
+    margin: 30px;
+    text-decoration: none;
+}
+.inpt{
+    margin-top: 20px;
+    margin-right: 400px;
+    width: 300px;
+}
+.crd{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.crd2{
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 300px;
+    box-shadow: seagreen 3px 3px 5px, seagreen -3px -3px 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}

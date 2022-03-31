@@ -1,0 +1,42 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+
+} */
+h1{
+    position: relative;
+    top: 150px;
+    right:329px;
+    color: rgb(27, 27, 70);
+    
+    
+}
+h2{
+    position: relative;
+    top: 140px;
+    right: 450px;
+    color: rgb(27, 27, 70);
+}
+.para{
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    text-align: justify;
+    align-items: center;
+   font-size: 20px;
+   color: grey;
+}
+img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+
+}
+.start{
+    position:relative;
+    top: 170px;
+    right:440px;
+}
