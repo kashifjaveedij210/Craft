@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col ,Button} from "react-bootstrap";
 import axios from "axios";
 import "./Craft.css";
 
@@ -7,9 +7,11 @@ const Craft = () => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
   const GetApi = async () => {
-    // const result= await axios.get("https://72ih8opnm2.execute-api.ap-south-1.amazonaws.com/live")
+    // const result2= await axios.get("https://72ih8opnm2.execute-api.ap-south-1.amazonaws.com/live")
+   
     const result = await axios.get("https://fakestoreapi.com/products");
-    // console.log(result)
+    
+    // console.log("helllo")
     console.log(result);
     setData(result.data);
   };
@@ -19,11 +21,12 @@ const Craft = () => {
   useEffect(() => {
     const filtered = data.filter((item) =>
       item.title.toUpperCase().includes(search.toUpperCase().trim())
+      
     );
     setData(filtered);
   }, [search]);
   return (
-    <div>
+    <div style={{backgroundColor:" rgb(243, 214, 214)"}}>
       <input
         type="text"
         placeholder="Search..."
@@ -39,13 +42,13 @@ const Craft = () => {
                 <Card.Img
                   variant="top"
                   src={item.image}
-                  style={{ width: "250px", height: "250px" }}
+                 style={{width:"300px",height:"300px"}}
                 />
-                <Card.Body>
-                  <Card.Title>{item.title}</Card.Title>
+                <Card.Body >
+                  <Card.Title >{item.title}</Card.Title>
                   <Card.Text>{item.description.substr(0, 20)}</Card.Text>
                   <Card.Text>Price: ${item.price}</Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+                  <Button variant="primary">Buy</Button>
                 </Card.Body>
               </Card>
             </div>

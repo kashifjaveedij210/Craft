@@ -9,13 +9,11 @@ import Inter from "./Components/Inter";
 function App() {
   return (
     <div className="App">
-    <Inter/>
-      {/* <Navigation/> */}
+    
+      <Navigation/>
 
-      {/* <Craft/> */}
-{/* <BrandA/> */}
-{/* <BrandB/> */}
-{/* <BrandC/> */}
+      <Craft/>
+
 
  
     </div>
